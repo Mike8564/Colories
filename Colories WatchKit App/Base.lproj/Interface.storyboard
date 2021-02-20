@@ -40,6 +40,15 @@
                             </items>
                         </group>
                     </items>
+                    <menu key="menu" id="B7x-RQ-Pyq">
+                        <items>
+                            <menuItem title="Restart" icon="resume" id="quL-CV-4BW">
+                                <connections>
+                                    <action selector="startGame" destination="AgC-eL-Hgc" id="mza-kx-YHE"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="BLButton" destination="LSn-Wu-Ubh" id="Ysj-7d-tpX"/>
                         <outlet property="BRButton" destination="CYK-ew-7VV" id="xVO-P1-RV3"/>

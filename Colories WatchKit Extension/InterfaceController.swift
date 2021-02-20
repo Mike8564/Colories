@@ -35,7 +35,7 @@ class InterfaceController: WKInterfaceController {
     }
     ///////////
     
-    func startGame() {
+    @IBAction func startGame() {
         startTimer = Date()
         currentLevel = 0
         levelUp()
@@ -43,6 +43,16 @@ class InterfaceController: WKInterfaceController {
     
     func levelUp() {
         currentLevel += 1
+        
+        if currentLevel == 2 {
+            let playAgain = WKAlertAction(title: "Play again!", style: .default) {
+                self.startGame()
+            }
+            
+            let timePassed = Date().timeIntervalSince(startTimer)
+            
+            presentAlert(withTitle: "You Won!", message: "You finished the game in \(Int(timePassed)) seconds", preferredStyle: .alert, actions: [playAgain])
+        }
         
         var colorKeys = Array(colors.keys)
         colorKeys.shuffle()
