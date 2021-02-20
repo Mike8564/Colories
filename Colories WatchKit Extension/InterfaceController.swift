@@ -7,7 +7,7 @@
 
 import WatchKit
 import Foundation
-
+import UserNotifications
 
 class InterfaceController: WKInterfaceController {
     @IBOutlet weak var TLButton: WKInterfaceButton!
@@ -22,7 +22,7 @@ class InterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         buttons = [TLButton, TRButton, BRButton, BLButton]
-        
+        setPlayReminder()
         startGame()
     }
     
@@ -85,6 +85,38 @@ class InterfaceController: WKInterfaceController {
             // wrong - make try again
             button.setEnabled(false)
         }
+    }
+    
+    func createNotification() {
+        let center = UNUserNotificationCenter.current()
+        let content = UNMutableNotificationContent()
+        content.title = "We miss you!"
+        content.body = "Come and play again!"
+        content.sound = UNNotificationSound.default
+        content.categoryIdentifier = "Play_Reminder"
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        center.add(request)
+         
+    }
+    
+    func setPlayReminder() {
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.alert,.sound]) { (success, error) in
+            if success {
+                self.registerCategories()
+                center.removeAllPendingNotificationRequests()
+                self.createNotification()
+            }
+        }
+    }
+    
+    func registerCategories() {
+        let center = UNUserNotificationCenter.current()
+        let play = UNNotificationAction(identifier: "Play", title: "Play Now", options: .foreground)
+        let category = UNNotificationCategory(identifier: "Play_Reminder", actions: [play], intentIdentifiers: [])
+        
+        center.setNotificationCategories([category])
     }
 
     @IBAction func TLButtonTapped() {
