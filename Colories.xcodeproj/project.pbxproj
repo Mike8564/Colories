@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75DDBE4525E17212003AB956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDBE4425E17212003AB956 /* AppDelegate.swift */; };
+		75DDBE4725E17212003AB956 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDBE4625E17212003AB956 /* SceneDelegate.swift */; };
+		75DDBE4925E17212003AB956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDBE4825E17212003AB956 /* ViewController.swift */; };
+		75DDBE4C25E17212003AB956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DDBE4A25E17212003AB956 /* Main.storyboard */; };
+		75DDBE4E25E17214003AB956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DDBE4D25E17214003AB956 /* Assets.xcassets */; };
+		75DDBE5125E17214003AB956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DDBE4F25E17214003AB956 /* LaunchScreen.storyboard */; };
+		75DDBE5625E17214003AB956 /* Colories WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 75DDBE5525E17214003AB956 /* Colories WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75DDBE5C25E17214003AB956 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DDBE5A25E17214003AB956 /* Interface.storyboard */; };
+		75DDBE5E25E17216003AB956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DDBE5D25E17216003AB956 /* Assets.xcassets */; };
+		75DDBE6525E17216003AB956 /* Colories WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 75DDBE6425E17216003AB956 /* Colories WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75DDBE6A25E17216003AB956 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDBE6925E17216003AB956 /* InterfaceController.swift */; };
+		75DDBE6C25E17216003AB956 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDBE6B25E17216003AB956 /* ExtensionDelegate.swift */; };
+		75DDBE6E25E17216003AB956 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDBE6D25E17216003AB956 /* ComplicationController.swift */; };
+		75DDBE7025E17217003AB956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DDBE6F25E17217003AB956 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75DDBE5725E17214003AB956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DDBE3925E17212003AB956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DDBE5425E17214003AB956;
+			remoteInfo = "Colories WatchKit App";
+		};
+		75DDBE6625E17216003AB956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DDBE3925E17212003AB956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DDBE6325E17216003AB956;
+			remoteInfo = "Colories WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75DDBE7725E17217003AB956 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75DDBE6525E17216003AB956 /* Colories WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DDBE7B25E17217003AB956 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				75DDBE5625E17214003AB956 /* Colories WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75DDBE4125E17212003AB956 /* Colories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colories.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DDBE4425E17212003AB956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75DDBE4625E17212003AB956 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75DDBE4825E17212003AB956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75DDBE4B25E17212003AB956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75DDBE4D25E17214003AB956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75DDBE5025E17214003AB956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75DDBE5225E17214003AB956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DDBE5525E17214003AB956 /* Colories WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colories WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DDBE5B25E17214003AB956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		75DDBE5D25E17216003AB956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75DDBE5F25E17216003AB956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DDBE6425E17216003AB956 /* Colories WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Colories WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DDBE6925E17216003AB956 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		75DDBE6B25E17216003AB956 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		75DDBE6D25E17216003AB956 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		75DDBE6F25E17217003AB956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75DDBE7125E17217003AB956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75DDBE3E25E17212003AB956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DDBE6125E17216003AB956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75DDBE3825E17212003AB956 = {
+			isa = PBXGroup;
+			children = (
+				75DDBE4325E17212003AB956 /* Colories */,
+				75DDBE5925E17214003AB956 /* Colories WatchKit App */,
+				75DDBE6825E17216003AB956 /* Colories WatchKit Extension */,
+				75DDBE4225E17212003AB956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75DDBE4225E17212003AB956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75DDBE4125E17212003AB956 /* Colories.app */,
+				75DDBE5525E17214003AB956 /* Colories WatchKit App.app */,
+				75DDBE6425E17216003AB956 /* Colories WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75DDBE4325E17212003AB956 /* Colories */ = {
+			isa = PBXGroup;
+			children = (
+				75DDBE4425E17212003AB956 /* AppDelegate.swift */,
+				75DDBE4625E17212003AB956 /* SceneDelegate.swift */,
+				75DDBE4825E17212003AB956 /* ViewController.swift */,
+				75DDBE4A25E17212003AB956 /* Main.storyboard */,
+				75DDBE4D25E17214003AB956 /* Assets.xcassets */,
+				75DDBE4F25E17214003AB956 /* LaunchScreen.storyboard */,
+				75DDBE5225E17214003AB956 /* Info.plist */,
+			);
+			path = Colories;
+			sourceTree = "<group>";
+		};
+		75DDBE5925E17214003AB956 /* Colories WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				75DDBE5A25E17214003AB956 /* Interface.storyboard */,
+				75DDBE5D25E17216003AB956 /* Assets.xcassets */,
+				75DDBE5F25E17216003AB956 /* Info.plist */,
+			);
+			path = "Colories WatchKit App";
+			sourceTree = "<group>";
+		};
+		75DDBE6825E17216003AB956 /* Colories WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				75DDBE6925E17216003AB956 /* InterfaceController.swift */,
+				75DDBE6B25E17216003AB956 /* ExtensionDelegate.swift */,
+				75DDBE6D25E17216003AB956 /* ComplicationController.swift */,
+				75DDBE6F25E17217003AB956 /* Assets.xcassets */,
+				75DDBE7125E17217003AB956 /* Info.plist */,
+			);
+			path = "Colories WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75DDBE4025E17212003AB956 /* Colories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DDBE7C25E17217003AB956 /* Build configuration list for PBXNativeTarget "Colories" */;
+			buildPhases = (
+				75DDBE3D25E17212003AB956 /* Sources */,
+				75DDBE3E25E17212003AB956 /* Frameworks */,
+				75DDBE3F25E17212003AB956 /* Resources */,
+				75DDBE7B25E17217003AB956 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DDBE5825E17214003AB956 /* PBXTargetDependency */,
+			);
+			name = Colories;
+			productName = Colories;
+			productReference = 75DDBE4125E17212003AB956 /* Colories.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75DDBE5425E17214003AB956 /* Colories WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DDBE7825E17217003AB956 /* Build configuration list for PBXNativeTarget "Colories WatchKit App" */;
+			buildPhases = (
+				75DDBE5325E17214003AB956 /* Resources */,
+				75DDBE7725E17217003AB956 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DDBE6725E17216003AB956 /* PBXTargetDependency */,
+			);
+			name = "Colories WatchKit App";
+			productName = "Colories WatchKit App";
+			productReference = 75DDBE5525E17214003AB956 /* Colories WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		75DDBE6325E17216003AB956 /* Colories WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DDBE7425E17217003AB956 /* Build configuration list for PBXNativeTarget "Colories WatchKit Extension" */;
+			buildPhases = (
+				75DDBE6025E17216003AB956 /* Sources */,
+				75DDBE6125E17216003AB956 /* Frameworks */,
+				75DDBE6225E17216003AB956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Colories WatchKit Extension";
+			productName = "Colories WatchKit Extension";
+			productReference = 75DDBE6425E17216003AB956 /* Colories WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75DDBE3925E17212003AB956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					75DDBE4025E17212003AB956 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					75DDBE5425E17214003AB956 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					75DDBE6325E17216003AB956 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 75DDBE3C25E17212003AB956 /* Build configuration list for PBXProject "Colories" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75DDBE3825E17212003AB956;
+			productRefGroup = 75DDBE4225E17212003AB956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75DDBE4025E17212003AB956 /* Colories */,
+				75DDBE5425E17214003AB956 /* Colories WatchKit App */,
+				75DDBE6325E17216003AB956 /* Colories WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75DDBE3F25E17212003AB956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DDBE5125E17214003AB956 /* LaunchScreen.storyboard in Resources */,
+				75DDBE4E25E17214003AB956 /* Assets.xcassets in Resources */,
+				75DDBE4C25E17212003AB956 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DDBE5325E17214003AB956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DDBE5E25E17216003AB956 /* Assets.xcassets in Resources */,
+				75DDBE5C25E17214003AB956 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DDBE6225E17216003AB956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DDBE7025E17217003AB956 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75DDBE3D25E17212003AB956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DDBE4925E17212003AB956 /* ViewController.swift in Sources */,
+				75DDBE4525E17212003AB956 /* AppDelegate.swift in Sources */,
+				75DDBE4725E17212003AB956 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DDBE6025E17216003AB956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DDBE6C25E17216003AB956 /* ExtensionDelegate.swift in Sources */,
+				75DDBE6A25E17216003AB956 /* InterfaceController.swift in Sources */,
+				75DDBE6E25E17216003AB956 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75DDBE5825E17214003AB956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DDBE5425E17214003AB956 /* Colories WatchKit App */;
+			targetProxy = 75DDBE5725E17214003AB956 /* PBXContainerItemProxy */;
+		};
+		75DDBE6725E17216003AB956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DDBE6325E17216003AB956 /* Colories WatchKit Extension */;
+			targetProxy = 75DDBE6625E17216003AB956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75DDBE4A25E17212003AB956 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75DDBE4B25E17212003AB956 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75DDBE4F25E17214003AB956 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75DDBE5025E17214003AB956 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		75DDBE5A25E17214003AB956 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75DDBE5B25E17214003AB956 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75DDBE7225E17217003AB956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75DDBE7325E17217003AB956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		75DDBE7525E17217003AB956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Colories WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MikeDreams.Colories.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		75DDBE7625E17217003AB956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Colories WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MikeDreams.Colories.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		75DDBE7925E17217003AB956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Colories_WatchKit_Extension;
+				INFOPLIST_FILE = "Colories WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MikeDreams.Colories.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		75DDBE7A25E17217003AB956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Colories_WatchKit_Extension;
+				INFOPLIST_FILE = "Colories WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MikeDreams.Colories.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		75DDBE7D25E17217003AB956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Colories/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MikeDreams.Colories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75DDBE7E25E17217003AB956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Colories/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MikeDreams.Colories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75DDBE3C25E17212003AB956 /* Build configuration list for PBXProject "Colories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DDBE7225E17217003AB956 /* Debug */,
+				75DDBE7325E17217003AB956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DDBE7425E17217003AB956 /* Build configuration list for PBXNativeTarget "Colories WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DDBE7525E17217003AB956 /* Debug */,
+				75DDBE7625E17217003AB956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DDBE7825E17217003AB956 /* Build configuration list for PBXNativeTarget "Colories WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DDBE7925E17217003AB956 /* Debug */,
+				75DDBE7A25E17217003AB956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DDBE7C25E17217003AB956 /* Build configuration list for PBXNativeTarget "Colories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DDBE7D25E17217003AB956 /* Debug */,
+				75DDBE7E25E17217003AB956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75DDBE3925E17212003AB956 /* Project object */;
+}
